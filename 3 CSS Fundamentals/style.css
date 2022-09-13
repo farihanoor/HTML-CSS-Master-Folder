@@ -20,6 +20,8 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  /* dimensions */
+  height: 80px;
 }
 
 nav {
@@ -41,7 +43,11 @@ aside {
   border-bottom: 5px solid #1098ad;
   /* padding-top: 50px;
   padding-bottom: 50px; */
+  /* the first part is top-bottom padding 
+  and second is left-right padding */
   padding: 50px 0;
+  /* dimensions */
+  width: 500px;
 }
 
 h1,
@@ -192,3 +198,8 @@ footer p {
 /* nav a:link , nav p{
   font-size: 18px;
 } */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
